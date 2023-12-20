@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const mongoose = require("mongoose")
 const seat = require('./bca_seatarrange')
-const SemModel = require('./Models/SemModel');
+const SemModel = require('../Models/SemModel');
 const app = express();
 const  PORT = 3002;
 app.use(cors());
